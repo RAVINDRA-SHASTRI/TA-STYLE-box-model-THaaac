@@ -13,3 +13,71 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="head">
+            The Box Model ,Box-Sizing & Box Shadow
+        </h1>
+        <h2 class="exercise">
+            Exercise 1
+        </h2>
+    </header>
+    <main>
+    <section>
+    <div class="box"></div>
+    <div class="circle-container">
+        <div class="circle content"></div>
+        <span>Content</span>
+        <div class="circle padding"></div>
+        <span>Padding</span>
+        <div class="circle border"></div>
+        <span>Border</span>
+        <div class="circle margin"></div>
+        <span>Margin</span>
+        </div>
+    </section>
+    
+    
+    <hr>
+        <header>
+        <h2 class="two">
+            Exercise 2
+        </h2>
+        <p>no border on these boxes.</p>
+        </header>
+        <section>
+            <div class="box-container">
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>                
+            </div>
+       </section>
+       <hr>
+       <section>
+        <p>1px border on these boxes.</p>
+        <div class="box-container">
+        <div class="small-box border-box"></div>
+        <div class="small-box border-box"></div>
+        <div class="small-box border-box"></div>                
+        </div>
+   </section>
+   <section>
+       <p>1px border on these boxes but they are in same line.</p>
+    <div class="box-container">
+        <div class="small-box border-box boxes"></div>
+        <div class="small-box border-box boxes"></div>
+        <div class="small-box border-box boxes"></div>                
+        </div>
+   </section>
+    </main>
+</body>
+</html>
